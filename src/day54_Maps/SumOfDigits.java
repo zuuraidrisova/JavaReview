@@ -21,7 +21,7 @@ public class SumOfDigits {
 
        for (int i = 0; i < ch.length; i++){
 
-           if(Character.isDigit(ch[i])) {
+           if(Character.isDigit(ch[i])) {//we have to check if the character is digit first before converting it to an integer
 
                int number = Integer.parseInt("" + ch[i]);
 
