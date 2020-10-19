@@ -32,6 +32,7 @@ public class Library {
         return descArray;
     }
 
+    
     public static void palindrome(String str){
 
         String result = "";
@@ -82,6 +83,7 @@ public class Library {
         return  minNumber;
 
     }
+    
 
     public static int maxNumFromArrayList(ArrayList<Integer> list){
 
